@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 #Loading Model Here
-model = pickle.load(open('main/Internship_1/Heart-Disease-Check/model.pkl', 'rb'))
+model = pickle.load(open('Heart-Disease-Check/model.pkl', 'rb'))
 
 
 #Making Streamlit Widgets
